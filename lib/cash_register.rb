@@ -5,6 +5,7 @@ def initialize(discount = 0)
   #total is an instance variable and 0 by default. We won't initialize an instance with a value other than 0
   @total = 0
   @discount = discount
+  @items = []
 end
 
 def add_item(title, price, quantity = 1)
