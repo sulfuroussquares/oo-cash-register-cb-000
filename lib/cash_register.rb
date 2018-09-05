@@ -13,6 +13,7 @@ def add_item(title, price, quantity = 1)
 @price = price
 if (quantity > 0)
   @total += (price*quantity)
+  
   #endif
 end
 #end add_item definition
@@ -29,6 +30,7 @@ end
 end
 
 def items
+  @items = []
 end
 
 end
