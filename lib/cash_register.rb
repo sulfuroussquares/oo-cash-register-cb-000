@@ -24,6 +24,7 @@ def apply_discount
     disc_subtotal = disc_amount*@total
     @total -= disc_subtotal
   end
+  @total
 end
 
 end
