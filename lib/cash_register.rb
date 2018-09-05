@@ -26,8 +26,8 @@ def apply_discount
 #  end
 #  @total
 if @discount > 0
-  @to_take_off = (@price * @discount)/100
-  @total -= @to_take_off
+  @disc_amount = (@price * @discount)/100
+  @total -= @disc_amount
 end
 end
 
