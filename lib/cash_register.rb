@@ -1,5 +1,5 @@
 class CashRegister
-attr_accessor :total, :discount
+attr_accessor :total, :discount, :items
 
 def initialize(discount = 0)
   #total is an instance variable and 0 by default. We won't initialize an instance with a value other than 0
@@ -13,7 +13,7 @@ def add_item(title, price, quantity = 1)
 @price = price
 if (quantity > 0)
   @total += (price*quantity)
-  
+
   #endif
 end
 #end add_item definition
