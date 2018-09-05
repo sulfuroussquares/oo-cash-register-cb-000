@@ -31,7 +31,7 @@ end
 end
 
 def items
-  @items = []
+  @items
 end
 
 end
