@@ -35,6 +35,7 @@ def items
 end
 
 def void_last_transaction
+  #@price will still hold the last value passed to it
   @total -= @price
 end
 
