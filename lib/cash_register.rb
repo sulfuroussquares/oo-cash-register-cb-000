@@ -22,7 +22,7 @@ def apply_discount
 if @discount > 0
   @disc_amount = (@price * @discount)/100
   @total -= @disc_amount
-  puts "After the discount, the total comes to $#{@total}" +
+  puts "After the discount, the total comes to $#{@total}" 
 end
 end
 
