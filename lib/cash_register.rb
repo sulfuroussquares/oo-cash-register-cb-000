@@ -23,6 +23,8 @@ if @discount > 0
   @disc_amount = (@price * @discount)/100
   @total -= @disc_amount
   return "After the discount, the total comes to $#{total}."
+else
+  return "There is no discount to apply."
 end
 end
 
