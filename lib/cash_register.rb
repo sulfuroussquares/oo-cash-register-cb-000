@@ -20,9 +20,9 @@ end
 
 def apply_discount
   if @discount != 0
-    disc_amount = @discount/100
-    disc_subtotal = disc_amount*@total
-    @total = @total - disc_subtotal
+    @disc_amount = @discount/100
+    @disc_subtotal = @disc_amount*@total
+    @total = @total - @disc_subtotal
   end
   @total
 end
